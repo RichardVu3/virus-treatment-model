@@ -183,6 +183,7 @@ def simulationWithoutDrug(numViruses, maxPop, maxBirthProb, clearProb,
     plt.ylabel("Average Virus Population")
     plt.legend(loc="best")
     plt.show()
+    plt.savefig('Simple_Virus_Simulation.png')
 
 
 class ResistantVirus(SimpleVirus):
@@ -449,6 +450,7 @@ def simulationWithDrug(numViruses, maxPop, maxBirthProb, clearProb, resistances,
     plt.ylabel("Average Virus Population")
     plt.legend(loc="best")
     plt.show()
+    plt.savefig('Resistant_Virus_Simulation.png')
     
 
 simulationWithoutDrug(100, 1000, 0.1, 0.05, 100)
