@@ -1,7 +1,7 @@
 # virus-treatment-model
 These codes are to design and implement a stochastic simulation of patient and virus population dynamics, and reach conclusions about treatment regimens based on the simulation results.
 
-This is my solution for an exercise in MIT 6.00.2x course on edX.
+This is my solution for an exercise in MIT 6.00.2x course on edX. Check Simple_Virus_Simulation.png and Resistant_Virus_Simulation.png inside this repository for result.
 
 Below is the background information produced by 6.00.2x course owners.
 
